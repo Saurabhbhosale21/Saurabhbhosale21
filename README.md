@@ -1,8 +1,6 @@
-<!-- Animated Typing Header -->
-
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+I'm+Saurabh+Bhosale;+.NET+Backend+Developer;Web+Development+Lead;AI+Prompt+Engineer;Python+Developer;Azure+Cloud+Engineering+Learner" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+I'm+Saurabh+Bhosale;+.NET+Backend+Developer;Web+Development+Lead;AI+Prompt+Engineer;Python+Developer;Azure+Cloud+Learner" />
 
 </p>
 
@@ -10,112 +8,95 @@
 
 # 👨‍💻 About Me
 
-💻 **.NET Backend Developer with 3+ years experience**
+.NET Backend Developer with **3+ years of experience** building scalable applications using **C#, ASP.NET Core, SQL Server and Python**.
 
-I specialize in building **scalable backend systems and REST APIs using C#, ASP.NET Core, SQL Server and Python**.
+Currently **leading Web Development initiatives in my organization** while building backend APIs.
 
-I am also actively involved in **Web Development** and currently **leading web development initiatives in my organization** along with backend development.
-
-I leverage **AI tools and prompt engineering** techniques to increase development productivity and improve engineering efficiency.
+I actively leverage **AI tools and prompt engineering** to improve development productivity.
 
 ---
 
 # 🧠 AI Prompt Engineering
 
-✔ Advanced **Prompt Engineering**
-✔ Efficient usage of **AI development tools**
-✔ Automating workflows using **AI + Python**
-✔ Improving engineering productivity using AI
+✔ Advanced Prompt Engineering
+✔ Efficient usage of AI developer tools
+✔ Automating workflows using AI + Python
+✔ Improving productivity using AI
 
-Tools Used:
+Tools:
 
-ChatGPT • Gemini • Claude • GitHub Copilot • AI Dev Tools
+ChatGPT • Gemini • Claude • GitHub Copilot
 
 ---
 
 # ⚡ Tech Stack
 
-## 🔧 Backend Development
+## Backend
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,python" />
-
+<img src="https://skillicons.dev/icons?i=cs,dotnet,python"/>
 </p>
 
 C# • .NET • ASP.NET Core • Python
 
 ---
 
-## 🗄 Database
+## Database
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=mongodb" />
-
-<img src="https://img.shields.io/badge/SQL%20Server-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge"/>
-
+<img src="https://skillicons.dev/icons?i=mongodb"/>
+<img src="https://skillicons.dev/icons?i=mysql"/>
 </p>
 
-SQL Server • MongoDB • Entity Framework • Database Design
+SQL Server • MongoDB • Entity Framework
 
 ---
 
-## ☁️ Cloud & DevOps
+## Cloud
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=azure,git,github" />
-
+<img src="https://skillicons.dev/icons?i=azure"/>
 </p>
 
-Azure • Git • GitHub
+Azure • Cloud Architecture
 
 ---
 
-## 🌐 Web Development
+## Web Development
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,nodejs" />
-
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,nodejs"/>
 </p>
 
-HTML • CSS • JavaScript • Bootstrap • React.js • Node.js
+HTML • CSS • JavaScript • Bootstrap • React • Node.js
 
 ---
 
-## 🛠 Development Tools
+## Tools
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=vscode,visualstudio,pycharm" />
-
+<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio"/>
 </p>
 
-Visual Studio • VS Code • Python IDEs
+Git • GitHub • Visual Studio • VS Code
 
 ---
 
 # 🏆 GitHub Achievements
 
 <p align="center">
-
 <img src="https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=true&row=1&column=6"/>
-
 </p>
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 GitHub Stats
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&theme=tokyonight"/>
 
 </p>
 
@@ -125,17 +106,7 @@ Visual Studio • VS Code • Python IDEs
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=Saurabhbhosale21&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-# 📅 GitHub Contribution Calendar
-
-<p align="center">
-
-<img src="https://ghchart.rshah.org/409ba5/Saurabhbhosale21" />
+<img src="https://streak-stats.demolab.com?user=Saurabhbhosale21&theme=tokyonight"/>
 
 </p>
 
@@ -143,17 +114,9 @@ Visual Studio • VS Code • Python IDEs
 
 # 🚀 Featured Project
 
-## Student Management API
+### Student Management API
 
 ASP.NET Core Web API demonstrating **clean architecture and scalable backend design**
-
-Key Features:
-
-✔ RESTful API
-✔ Clean architecture structure
-✔ Entity Framework Core
-✔ SQL Server integration
-✔ Production-ready architecture
 
 Repository:
 
@@ -161,27 +124,15 @@ https://github.com/Saurabhbhosale21/dotnet-student-management-api
 
 ---
 
-# 🧑‍💻 Dynamic Repository Showcase
-
-<p align="center">
-
-<a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight"/>
-</a>
-
-</p>
-
----
-
-# 📈 Professional Skill Overview
+# 📊 Skill Overview
 
 Backend Development
 ███████████████████░ 90%
 
-API Design & Architecture
+API Design
 █████████████████░░░ 85%
 
-Cloud Engineering (Azure)
+Azure Cloud
 ██████████████░░░░░░ 70%
 
 Web Development
@@ -198,9 +149,7 @@ Python Development
 # 🐍 Contribution Snake
 
 <p align="center">
-
 <img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/output/github-contribution-grid-snake.svg"/>
-
 </p>
 
 ---
@@ -219,14 +168,14 @@ Python Development
 
 ---
 
-# 👀 Profile Visitors
+# 👀 Visitors
 
 <p align="left">
 
-<img src="https://komarev.com/ghpvc/?username=Saurabhbhosale21&style=for-the-badge&color=blue"/>
+<img src="https://komarev.com/ghpvc/?username=Saurabhbhosale21&style=for-the-badge"/>
 
 </p>
 
 ---
 
-⭐ *Building reliable backend systems and evolving toward modern cloud and AI-assisted engineering.*
+⭐ Building reliable backend systems and evolving toward **cloud + AI-assisted engineering**
