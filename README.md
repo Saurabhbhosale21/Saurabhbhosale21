@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- WAVE BANNER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,50:1a1a2e,100:0D1117&height=200&section=header&text=Saurabh%20Bhosale&fontSize=60&fontColor=FFFFFF&fontAlignY=38&desc=.NET%20Backend%20Developer%20%7C%20Web%20Dev%20Lead%20%7C%20AI%20Prompt%20Engineer&descAlignY=58&descSize=18&descColor=7EB3FF&animation=fadeIn" />
 
-<!-- TYPING — herokuapp is reliable and not blocked by camo -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0078D4&center=true&vCenter=true&width=750&lines=👋+Hi%2C+I'm+Saurabh+Bhosale!;⚙️+.NET+Backend+Developer+%7C+3%2B+Years;🚀+Web+Development+Lead;🤖+AI+Prompt+Engineer+%26+Python+Developer;☁️+Azure+Cloud+Learner" alt="Typing SVG" />
 
 <br/>
@@ -54,76 +52,51 @@
 
 <br/><br/>
 
-<!--
-  LOGOS: ONLY using skillicons.dev + shields.io + wikimedia.
-  These 3 sources are 100% whitelisted by GitHub's camo proxy.
-  All icons sized at 80x80 for large display.
-  Wikimedia SVGs are served via upload.wikimedia.org — fully trusted.
--->
-
 <table>
-  <tr>
-
-    <!-- ChatGPT — Wikimedia SVG, confirmed working -->
-    <td align="center" width="150">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="80" height="80" alt="ChatGPT"/><br/><br/>
-      <b>ChatGPT</b><br/>
-      <img src="https://img.shields.io/badge/OpenAI-10a37f?style=for-the-badge&logo=openai&logoColor=white"/>
-    </td>
-
-    <!-- Gemini — Wikimedia SVG, confirmed working -->
-    <td align="center" width="150">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="80" height="80" alt="Gemini"/><br/><br/>
-      <b>Gemini</b><br/>
-      <img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-    </td>
-
-    <!-- Claude — Anthropic logo via shields.io (no external img needed, badge IS the logo) -->
-    <td align="center" width="150">
-      <img src="https://img.shields.io/badge/%20-FF6B35?style=flat-square&logo=anthropic&logoColor=white&labelColor=FF6B35" width="80" height="80" alt="Claude"/><br/><br/>
-      <b>Claude AI</b><br/>
-      <img src="https://img.shields.io/badge/Anthropic-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white"/>
-    </td>
-
-    <!-- GitHub Copilot — Wikimedia SVG, confirmed working -->
-    <td align="center" width="150">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" width="80" height="80" alt="GitHub Copilot"/><br/><br/>
-      <b>GitHub Copilot</b><br/>
-      <img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
-    </td>
-
-  </tr>
-  <tr>
-
-    <!-- DeepSeek — shields.io badge scaled large -->
-    <td align="center" width="150">
-      <img src="https://img.shields.io/badge/Deep-4D6BFE?style=flat-square&logoColor=white&labelColor=4D6BFE" width="80" height="80" alt="DeepSeek"/><br/><br/>
-      <b>DeepSeek</b><br/>
-      <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logoColor=white"/>
-    </td>
-
-    <!-- Ollama — skillicons has ollama icon -->
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=ollama&theme=dark" width="80" height="80" alt="Ollama"/><br/><br/>
-      <b>Ollama</b><br/>
-      <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-    </td>
-
-    <!-- Kimi 2.5 — Moonshot AI brand color orange -->
-    <td align="center" width="150">
-      <img src="https://img.shields.io/badge/K-FF6B00?style=flat-square&logoColor=white&labelColor=FF6B00" width="80" height="80" alt="Kimi"/><br/><br/>
-      <b>Kimi 2.5</b><br/>
-      <img src="https://img.shields.io/badge/Kimi_2.5-FF6B00?style=for-the-badge&logoColor=white"/>
-    </td>
-
-    <!-- OpenClaw — custom purple badge -->
-    <td align="center" width="150">
-      <img src="https://img.shields.io/badge/🔓-7C3AED?style=flat-square&logoColor=white&labelColor=7C3AED" width="80" height="80" alt="OpenClaw"/><br/><br/>
-      <b>OpenClaw</b><br/>
-      <img src="https://img.shields.io/badge/OpenClaw-7C3AED?style=for-the-badge&logoColor=white"/>
-    </td>
-
-  </tr>
+<tr>
+<td align="center" width="130">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="70" height="70" alt="ChatGPT"/>
+<br/><b>ChatGPT</b><br/>
+<img src="https://img.shields.io/badge/OpenAI-10a37f?style=for-the-badge&logo=openai&logoColor=white"/>
+</td>
+<td align="center" width="130">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="70" height="70" alt="Gemini"/>
+<br/><b>Gemini</b><br/>
+<img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+</td>
+<td align="center" width="130">
+<img src="https://img.shields.io/badge/Anthropic-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=FF6B35" height="70" alt="Claude"/>
+<br/><b>Claude AI</b><br/>
+<img src="https://img.shields.io/badge/Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white"/>
+</td>
+<td align="center" width="130">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" width="70" height="70" alt="Copilot"/>
+<br/><b>Copilot</b><br/>
+<img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
+</td>
+</tr>
+<tr>
+<td align="center" width="130">
+<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logoColor=white" height="70" alt="DeepSeek"/>
+<br/><b>DeepSeek</b><br/>
+<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logoColor=white"/>
+</td>
+<td align="center" width="130">
+<img src="https://skillicons.dev/icons?i=ollama&theme=dark" width="70" height="70" alt="Ollama"/>
+<br/><b>Ollama</b><br/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+</td>
+<td align="center" width="130">
+<img src="https://img.shields.io/badge/KIMI-FF6B00?style=flat-square&logoColor=white" height="70" alt="Kimi"/>
+<br/><b>Kimi 2.5</b><br/>
+<img src="https://img.shields.io/badge/Kimi_2.5-FF6B00?style=for-the-badge&logoColor=white"/>
+</td>
+<td align="center" width="130">
+<img src="https://img.shields.io/badge/OPEN-7C3AED?style=flat-square&logoColor=white" height="70" alt="OpenClaw"/>
+<br/><b>OpenClaw</b><br/>
+<img src="https://img.shields.io/badge/OpenClaw-7C3AED?style=for-the-badge&logoColor=white"/>
+</td>
+</tr>
 </table>
 
 </div>
@@ -137,40 +110,30 @@
 <div align="center">
 
 ### ⚙️ Backend Development
-
-<!-- skillicons.dev — 100% trusted, large icons via &size=64 equivalent using perline -->
-<img src="https://skillicons.dev/icons?i=cs,dotnet,python&theme=dark&perline=6" height="80"/>
+<img src="https://skillicons.dev/icons?i=cs,dotnet,python&theme=dark" height="80"/>
 
 <br/><br/>
 
 ### 🗄️ Databases & ORM
-
-<img src="https://skillicons.dev/icons?i=mssql,mysql,mongodb&theme=dark&perline=6" height="80"/>
-
+<img src="https://skillicons.dev/icons?i=mssql,mysql,mongodb&theme=dark" height="80"/>
 <br/><br/>
-
 <img src="https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 
 <br/><br/>
 
 ### ☁️ Cloud
-
 <img src="https://skillicons.dev/icons?i=azure&theme=dark" height="80"/>
 
 <br/><br/>
 
 ### 🌐 Web Development
-
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,nodejs&theme=dark&perline=6" height="80"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,nodejs&theme=dark" height="80"/>
 
 <br/><br/>
 
 ### 🧰 Tools & Environment
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio&theme=dark&perline=6" height="80"/>
-
+<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio&theme=dark" height="80"/>
 <br/><br/>
-
 <img src="https://img.shields.io/badge/GitHub_Desktop-8034A9?style=for-the-badge&logo=github&logoColor=white"/>
 
 </div>
@@ -183,13 +146,8 @@
 
 <div align="center">
 
-<!--
-  TROPHY FIX — the vercel.app service is NOT blocked, it's just cold-starting.
-  Solution: use a direct Vercel URL with &column=4 (less likely to timeout)
-  and include the UNKNOWN rank so every account shows at least a few.
--->
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN" alt="GitHub Trophies"/>
 </a>
 
 </div>
@@ -202,20 +160,9 @@
 
 <div align="center">
 
-<!--
-  STATS FIX — github-readme-stats.vercel.app gets 429 rate-limited
-  intermittently because millions of READMEs hit the same endpoint.
-  Solution: use &cache_seconds=86400 (24h cache) to reduce API hits
-  and switch to the new stable URL format.
--->
-
-<img height="195"
-  src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9&cache_seconds=86400"
-  alt="GitHub Stats"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9&cache_seconds=86400" alt="GitHub Stats"/>
 &nbsp;
-<img height="195"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&cache_seconds=86400"
-  alt="Top Languages"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&cache_seconds=86400" alt="Top Languages"/>
 
 </div>
 
@@ -227,8 +174,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Saurabhbhosale21&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF"
-  alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Saurabhbhosale21&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak"/>
 
 </div>
 
@@ -240,15 +186,8 @@
 
 <div align="center">
 
-<!--
-  REPO PIN FIX — "User Repository Not Found" means the stats service
-  couldn't find your private token to see the repo, OR the repo name
-  has a casing mismatch. Using &show_owner=true forces a fresh API call.
-  Your repo name on GitHub is exactly: dotnet-student-management-api
--->
 <a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true&cache_seconds=86400"
-    alt="Student Management API"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true&cache_seconds=86400" alt="Student Management API"/>
 </a>
 
 </div>
@@ -346,14 +285,13 @@ Clean Architecture &nbsp;·&nbsp; Full CRUD &nbsp;·&nbsp; Entity Framework &nbs
 <img src="https://komarev.com/ghpvc/?username=Saurabhbhosale21&label=Profile+Views&color=0078D4&style=for-the-badge" alt="Profile Views"/>
 &nbsp;&nbsp;
 <a href="https://github.com/Saurabhbhosale21?tab=followers">
-  <img src="https://img.shields.io/github/followers/Saurabhbhosale21?label=Followers&style=for-the-badge&color=0078D4&logo=github&logoColor=white" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/Saurabhbhosale21?label=Followers&style=for-the-badge&color=0078D4&logo=github&logoColor=white" alt="Followers"/>
 </a>
 
 </div>
 
 ---
 
-<!-- FOOTER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:0078D4&height=130&section=footer&text=Let%27s%20Build%20Something%20Great!&fontSize=22&fontColor=FFFFFF&fontAlignY=65&animation=fadeIn"/>
 
 <div align="center">
