@@ -1,8 +1,8 @@
-<!-- Animated Intro -->
+<!-- Animated Typing Header -->
 
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+I'm+Saurabh+Bhosale;+.NET+Backend+Developer;Web+Development+Lead;AI+Prompt+Engineer;Cloud+Engineering+Learner+%7C+Azure" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+I'm+Saurabh+Bhosale;+.NET+Backend+Developer;Web+Development+Lead;AI+Prompt+Engineer;Python+Developer;Azure+Cloud+Engineering+Learner" />
 
 </p>
 
@@ -14,9 +14,9 @@
 
 I specialize in building **scalable backend systems and REST APIs using C#, ASP.NET Core, SQL Server and Python**.
 
-I am also actively involved in **Web Development** and currently **leading web development initiatives in my organization** alongside backend engineering.
+I am also actively involved in **Web Development** and currently **leading web development initiatives in my organization** along with backend development.
 
-I leverage **AI tools and advanced prompt engineering** techniques to increase development productivity and improve engineering efficiency.
+I leverage **AI tools and prompt engineering** techniques to increase development productivity and improve engineering efficiency.
 
 ---
 
@@ -24,8 +24,8 @@ I leverage **AI tools and advanced prompt engineering** techniques to increase d
 
 ✔ Advanced **Prompt Engineering**
 ✔ Efficient usage of **AI development tools**
-✔ Automating workflows with **AI + Python**
-✔ Improving developer productivity using AI tools
+✔ Automating workflows using **AI + Python**
+✔ Improving engineering productivity using AI
 
 Tools Used:
 
@@ -99,6 +99,16 @@ Visual Studio • VS Code • Python IDEs
 
 ---
 
+# 🏆 GitHub Achievements
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=true&row=1&column=6"/>
+
+</p>
+
+---
+
 # 📊 GitHub Analytics
 
 <p align="center">
@@ -121,21 +131,11 @@ Visual Studio • VS Code • Python IDEs
 
 ---
 
-# 🏆 GitHub Achievements
+# 📅 GitHub Contribution Calendar
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=true&row=1&column=6" />
-
-</p>
-
----
-
-# 📈 Contribution Activity
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Saurabhbhosale21&theme=tokyo-night&hide_border=true"/>
+<img src="https://ghchart.rshah.org/409ba5/Saurabhbhosale21" />
 
 </p>
 
@@ -189,6 +189,9 @@ Web Development
 
 AI Prompt Engineering
 ██████████████████░░ 90%
+
+Python Development
+████████████████░░░░ 80%
 
 ---
 
