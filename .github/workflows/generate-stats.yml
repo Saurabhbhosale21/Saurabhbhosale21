@@ -27,90 +27,104 @@ jobs:
         run: npm install node-fetch@2
 
       - name: Generate all SVG cards
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node << 'EOF'
           const fetch = require('node-fetch');
           const fs = require('fs');
 
           const USERNAME = 'Saurabhbhosale21';
-          const THEME_PARAMS = 'theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9';
 
           const cards = [
             {
               name: 'stats',
-              url: `https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&${THEME_PARAMS}&include_all_commits=true&count_private=true`
+              urls: [
+                `https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api?username=${USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9&include_all_commits=true&count_private=true`,
+                `https://github-readme-stats-anuraghazra1.vercel.app/api?username=${USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9`,
+                `https://readme.midnite.uk/api?username=${USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9`
+              ]
             },
             {
               name: 'top-langs',
-              url: `https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&${THEME_PARAMS}`
+              urls: [
+                `https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9`,
+                `https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9`,
+                `https://readme.midnite.uk/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9`
+              ]
             },
             {
               name: 'streak',
-              url: `https://github-readme-streak-stats.herokuapp.com?user=${USERNAME}&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF`
+              urls: [
+                `https://github-readme-streak-stats.herokuapp.com?user=${USERNAME}&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF`,
+                `https://streak-stats.demolab.com?user=${USERNAME}&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888`
+              ]
             },
             {
               name: 'trophy',
-              url: `https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN`
+              urls: [
+                `https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15`,
+                `https://github-profile-trophy-xi-five.vercel.app/?username=${USERNAME}&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15`
+              ]
             },
             {
               name: 'repo-pin',
-              url: `https://github-readme-stats.vercel.app/api/pin/?username=${USERNAME}&repo=dotnet-student-management-api&${THEME_PARAMS}&show_owner=true`
+              urls: [
+                `https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api/pin/?username=${USERNAME}&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4`,
+                `https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=${USERNAME}&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4`,
+                `https://readme.midnite.uk/api/pin/?username=${USERNAME}&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4`
+              ]
             }
           ];
 
-          async function fetchWithRetry(url, name, retries = 5) {
-            for (let i = 1; i <= retries; i++) {
-              try {
-                console.log(`[${name}] Attempt ${i}/${retries}: ${url}`);
-                const res = await fetch(url, {
-                  headers: {
-                    'User-Agent': 'Mozilla/5.0 (compatible; GitHub-Profile-Bot/1.0)',
-                    'Accept': 'image/svg+xml,*/*'
-                  },
-                  timeout: 30000
-                });
-                console.log(`[${name}] HTTP ${res.status}`);
-                const text = await res.text();
-                if (text.includes('<svg')) {
-                  console.log(`[${name}] ✅ Valid SVG received (${text.length} chars)`);
-                  return text;
-                } else {
-                  console.log(`[${name}] ❌ Not SVG, got: ${text.substring(0, 150)}`);
-                }
-              } catch (err) {
-                console.log(`[${name}] Error: ${err.message}`);
+          async function tryFetch(url, name) {
+            try {
+              console.log(`  [${name}] Trying: ${url.substring(0, 80)}...`);
+              const res = await fetch(url, {
+                headers: {
+                  'User-Agent': 'Mozilla/5.0',
+                  'Accept': 'image/svg+xml,*/*'
+                },
+                timeout: 20000
+              });
+              console.log(`  [${name}] HTTP ${res.status}`);
+              if (res.status !== 200) return null;
+              const text = await res.text();
+              if (text.includes('<svg')) {
+                console.log(`  [${name}] ✅ Valid SVG (${text.length} chars)`);
+                return text;
               }
-              if (i < retries) {
-                const wait = i * 20000;
-                console.log(`[${name}] Waiting ${wait/1000}s before retry...`);
-                await new Promise(r => setTimeout(r, wait));
-              }
+              console.log(`  [${name}] ❌ Not SVG: ${text.substring(0, 100)}`);
+              return null;
+            } catch (err) {
+              console.log(`  [${name}] Error: ${err.message}`);
+              return null;
             }
-            return null;
           }
 
           async function main() {
             if (!fs.existsSync('generated')) fs.mkdirSync('generated');
-            let allOk = true;
+
             for (const card of cards) {
-              const svg = await fetchWithRetry(card.url, card.name);
-              if (svg) {
-                fs.writeFileSync(`generated/${card.name}.svg`, svg);
-                console.log(`✅ Saved generated/${card.name}.svg`);
-              } else {
-                console.log(`❌ FAILED to get valid SVG for ${card.name}`);
-                allOk = false;
+              console.log(`\n=== Fetching: ${card.name} ===`);
+              let saved = false;
+              for (const url of card.urls) {
+                const svg = await tryFetch(url, card.name);
+                if (svg) {
+                  fs.writeFileSync(`generated/${card.name}.svg`, svg);
+                  console.log(`✅ Saved generated/${card.name}.svg`);
+                  saved = true;
+                  break;
+                }
+                await new Promise(r => setTimeout(r, 5000));
+              }
+              if (!saved) {
+                console.log(`❌ ALL URLs failed for ${card.name}`);
               }
             }
-            if (!allOk) {
-              console.log('⚠️  Some cards failed but continuing with whatever was saved.');
-            }
-            console.log('\n=== Final file listing ===');
+
+            console.log('\n=== FINAL RESULTS ===');
             fs.readdirSync('generated').forEach(f => {
-              const content = fs.readFileSync(`generated/${f}`, 'utf8');
-              console.log(`${content.includes('<svg') ? '✅' : '❌'} generated/${f} (${content.length} chars)`);
+              const c = fs.readFileSync(`generated/${f}`, 'utf8');
+              console.log(`${c.includes('<svg') ? '✅' : '❌'} generated/${f} (${c.length} chars)`);
             });
           }
 
