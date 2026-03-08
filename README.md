@@ -54,46 +54,62 @@
 
 <table>
 <tr>
-<td align="center" width="130">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="70" height="70" alt="ChatGPT"/>
-<br/><b>ChatGPT</b><br/>
+<td align="center" width="150">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="80" height="80" alt="ChatGPT"/>
+<br/><br/>
+<b>ChatGPT</b>
+<br/>
 <img src="https://img.shields.io/badge/OpenAI-10a37f?style=for-the-badge&logo=openai&logoColor=white"/>
 </td>
-<td align="center" width="130">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="70" height="70" alt="Gemini"/>
-<br/><b>Gemini</b><br/>
+<td align="center" width="150">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="80" height="80" alt="Gemini"/>
+<br/><br/>
+<b>Gemini</b>
+<br/>
 <img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
 </td>
-<td align="center" width="130">
-<img src="https://img.shields.io/badge/Anthropic-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white" height="70" alt="Claude"/>
-<br/><b>Claude AI</b><br/>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white" height="80" alt="Claude"/>
+<br/><br/>
+<b>Claude AI</b>
+<br/>
 <img src="https://img.shields.io/badge/Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white"/>
 </td>
-<td align="center" width="130">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" width="70" height="70" alt="Copilot"/>
-<br/><b>Copilot</b><br/>
+<td align="center" width="150">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" width="80" height="80" alt="Copilot"/>
+<br/><br/>
+<b>GitHub Copilot</b>
+<br/>
 <img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
 </td>
 </tr>
 <tr>
-<td align="center" width="130">
-<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logoColor=white" height="70" alt="DeepSeek"/>
-<br/><b>DeepSeek</b><br/>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-4D6BFE?style=for-the-badge&logoColor=white" height="80" alt="DeepSeek"/>
+<br/><br/>
+<b>DeepSeek</b>
+<br/>
 <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logoColor=white"/>
 </td>
-<td align="center" width="130">
-<img src="https://skillicons.dev/icons?i=ollama&theme=dark" width="70" height="70" alt="Ollama"/>
-<br/><b>Ollama</b><br/>
+<td align="center" width="150">
+<img src="https://skillicons.dev/icons?i=ollama&theme=dark" width="80" height="80" alt="Ollama"/>
+<br/><br/>
+<b>Ollama</b>
+<br/>
 <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
 </td>
-<td align="center" width="130">
-<img src="https://img.shields.io/badge/KIMI-FF6B00?style=flat-square&logoColor=white" height="70" alt="Kimi"/>
-<br/><b>Kimi 2.5</b><br/>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-FF6B00?style=for-the-badge&logoColor=white" height="80" alt="Kimi"/>
+<br/><br/>
+<b>Kimi 2.5</b>
+<br/>
 <img src="https://img.shields.io/badge/Kimi_2.5-FF6B00?style=for-the-badge&logoColor=white"/>
 </td>
-<td align="center" width="130">
-<img src="https://img.shields.io/badge/OPEN-7C3AED?style=flat-square&logoColor=white" height="70" alt="OpenClaw"/>
-<br/><b>OpenClaw</b><br/>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-7C3AED?style=for-the-badge&logoColor=white" height="80" alt="OpenClaw"/>
+<br/><br/>
+<b>OpenClaw</b>
+<br/>
 <img src="https://img.shields.io/badge/OpenClaw-7C3AED?style=for-the-badge&logoColor=white"/>
 </td>
 </tr>
@@ -146,9 +162,7 @@
 
 <div align="center">
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN" alt="GitHub Trophies"/>
-</a>
+<img width="100%" src="./generated/trophy.svg" alt="GitHub Trophies"/>
 
 </div>
 
@@ -160,9 +174,9 @@
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9" alt="GitHub Stats"/>
-&nbsp;
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9" alt="Top Languages"/>
+<img height="195" src="./generated/stats.svg" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img height="195" src="./generated/top-langs.svg" alt="Top Languages"/>
 
 </div>
 
@@ -174,7 +188,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Saurabhbhosale21&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak"/>
+<img src="./generated/streak.svg" alt="GitHub Streak"/>
 
 </div>
 
@@ -187,7 +201,7 @@
 <div align="center">
 
 <a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true" alt="Student Management API"/>
+<img src="./generated/repo-pin.svg" alt="Student Management API"/>
 </a>
 
 </div>
