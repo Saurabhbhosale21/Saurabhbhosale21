@@ -61,62 +61,51 @@
 <table>
 <tr>
 <td align="center" width="150">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="80" height="80" alt="ChatGPT"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/chatgpt.png" width="65" height="65" alt="ChatGPT"/>
 <br/><br/>
 <b>ChatGPT</b>
-<br/>
-<img src="https://img.shields.io/badge/OpenAI-10a37f?style=for-the-badge&logo=openai&logoColor=white"/>
 </td>
 <td align="center" width="150">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="80" height="80" alt="Gemini"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/gemini.png" width="65" height="65" alt="Gemini"/>
 <br/><br/>
 <b>Gemini</b>
-<br/>
-<img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white" height="80" alt="Claude"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/claude.png" width="65" height="65" alt="Claude"/>
 <br/><br/>
 <b>Claude AI</b>
-<br/>
-<img src="https://img.shields.io/badge/Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white"/>
 </td>
 <td align="center" width="150">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" width="80" height="80" alt="Copilot"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/copilot.png" width="65" height="65" alt="Copilot"/>
 <br/><br/>
 <b>GitHub Copilot</b>
-<br/>
-<img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
+</td>
+<td align="center" width="150">
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/deepseek.png" width="65" height="65" alt="DeepSeek"/>
+<br/><br/>
+<b>DeepSeek</b>
 </td>
 </tr>
 <tr>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-4D6BFE?style=for-the-badge&logoColor=white" height="80" alt="DeepSeek"/>
-<br/><br/>
-<b>DeepSeek</b>
-<br/>
-<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logoColor=white"/>
-</td>
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=ollama&theme=dark" width="80" height="80" alt="Ollama"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/ollama.png" width="65" height="65" alt="Ollama"/>
 <br/><br/>
 <b>Ollama</b>
-<br/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-FF6B00?style=for-the-badge&logoColor=white" height="80" alt="Kimi"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/kimi.png" width="65" height="65" alt="Kimi"/>
 <br/><br/>
 <b>Kimi 2.5</b>
-<br/>
-<img src="https://img.shields.io/badge/Kimi_2.5-FF6B00?style=for-the-badge&logoColor=white"/>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-7C3AED?style=for-the-badge&logoColor=white" height="80" alt="OpenClaw"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/openclaw.png" width="65" height="65" alt="OpenClaw"/>
 <br/><br/>
 <b>OpenClaw</b>
-<br/>
-<img src="https://img.shields.io/badge/OpenClaw-7C3AED?style=for-the-badge&logoColor=white"/>
+</td>
+<td align="center" width="150">
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/ai-logos/claude-cowork.png" width="65" height="65" alt="Claude Cowork"/>
+<br/><br/>
+<b>Claude Cowork</b>
 </td>
 </tr>
 </table>
@@ -137,12 +126,17 @@
 <br/><br/>
 
 ### 🗄️ Databases & ORM
-<img src="https://skillicons.dev/icons?i=mssql,mysql,mongodb&theme=dark" height="80"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+
+<img src="https://skillicons.dev/icons?i=mongodb&theme=dark" height="65"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white&labelColor=CC2927" height="65"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=4479A1" height="65"/>
+&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=sqlite&theme=dark" height="65"/>
+
 
 <br/><br/>
-
 ### ☁️ Cloud
 <img src="https://skillicons.dev/icons?i=azure&theme=dark" height="80"/>
 
@@ -168,14 +162,36 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/trophy.svg" width="100%" alt="GitHub Trophies"/>
-
-<br/><br/>
-
-![Commits](https://img.shields.io/badge/Total_Commits-116%2B-0078D4?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117)
-![Stars](https://img.shields.io/badge/Total_Stars-14-FFD700?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
-![Repos](https://img.shields.io/badge/Public_Repos-21-22c55e?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
-![Experience](https://img.shields.io/badge/Experience-3%2B_Years-FF6B35?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0D1117)
+<table border="0" cellpadding="30">
+<tr>
+<td align="center">
+<h2>🔥</h2>
+<h2>116+</h2>
+<b>Total Commits</b>
+</td>
+<td align="center">
+<h2>⭐</h2>
+<h2>17</h2>
+<b>GitHub Stars</b>
+</td>
+<td align="center">
+<h2>📁</h2>
+<h2>21</h2>
+<b>Public Repos</b>
+</td>
+<td align="center">
+<h2>💼</h2>
+<h2>3+</h2>
+<b>Years Experience</b>
+</td>
+<td align="center">
+<h2>🤝</h2>
+<img src="https://img.shields.io/github/followers/Saurabhbhosale21?style=social" alt="followers"/>
+<br/>
+<b>Followers</b>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -209,52 +225,45 @@
 
 ---
 
-## 📁 Dynamic Repository Showcase
+## 📁 Featured Project
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/repo-pin.svg" alt="Student Management API"/>
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr>
+<td align="left" style="padding: 20px;">
 
-<br/><br/>
+### 🗃️ &nbsp; Student Inventory Management API
 
-<a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
-<img src="https://img.shields.io/badge/🔗_Open_Repository-dotnet--student--management--api-0078D4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
-</a>
-&nbsp;
-<img src="https://img.shields.io/github/stars/Saurabhbhosale21/dotnet-student-management-api?style=for-the-badge&color=FFD700&logo=github&logoColor=white&labelColor=0D1117&label=⭐_Stars"/>
-&nbsp;
-<img src="https://img.shields.io/github/languages/top/Saurabhbhosale21/dotnet-student-management-api?style=for-the-badge&color=239120&logo=csharp&logoColor=white&labelColor=0D1117"/>
+> A **production-ready RESTful API** for managing student inventory records, built with clean architecture principles.
 
+<br/>
+
+<div align="center">
+**🔧 Tech Stack Used:**
+
+| Layer | Technology |
+|:------|:-----------|
+| 🖥️ Language | C# (.NET 8) |
+| 🌐 Framework | ASP.NET Core Web API |
+| 🗄️ Database | Microsoft SQL Server |
+| 🔗 ORM | Entity Framework Core |
+| 📄 Docs | Swagger / OpenAPI |
+| 🏗️ Architecture | Clean Architecture (Repository Pattern) |
+| 🔐 Auth | JWT Bearer Token |
+| ☁️ Deployment | Azure App Service |
 </div>
+<br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-## 🌟 Featured Project
-
-<div align="center">
+**✅ Features:** Full CRUD · Pagination · Filtering · Validation · Error Handling · Logging
 
 <br/>
 
-### 🎓 Student Management API
+[![View on GitHub](https://img.shields.io/badge/🔗_View_on_GitHub-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saurabhbhosale21)
 
-A **production-ready RESTful API** built with **ASP.NET Core** & **SQL Server**
-
-Clean Architecture &nbsp;·&nbsp; Full CRUD &nbsp;·&nbsp; Entity Framework &nbsp;·&nbsp; Swagger Docs
-
-<br/>
-
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-0078D4?style=for-the-badge&logo=swagger&logoColor=white)
-
-<br/>
-
-[![View Repository](https://img.shields.io/badge/🔗_View_Repository-0078D4?style=for-the-badge)](https://github.com/Saurabhbhosale21/dotnet-student-management-api)
-
-<br/>
+</td>
+</tr>
+</table>
 
 </div>
 
