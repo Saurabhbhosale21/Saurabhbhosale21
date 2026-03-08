@@ -1,0 +1,128 @@
+name: Generate GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      - name: Generate all SVG cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node << 'EOF'
+          const fetch = require('node-fetch');
+          const fs = require('fs');
+
+          const USERNAME = 'Saurabhbhosale21';
+          const THEME_PARAMS = 'theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9';
+
+          const cards = [
+            {
+              name: 'stats',
+              url: `https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&${THEME_PARAMS}&include_all_commits=true&count_private=true`
+            },
+            {
+              name: 'top-langs',
+              url: `https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&langs_count=8&${THEME_PARAMS}`
+            },
+            {
+              name: 'streak',
+              url: `https://github-readme-streak-stats.herokuapp.com?user=${USERNAME}&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF`
+            },
+            {
+              name: 'trophy',
+              url: `https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN`
+            },
+            {
+              name: 'repo-pin',
+              url: `https://github-readme-stats.vercel.app/api/pin/?username=${USERNAME}&repo=dotnet-student-management-api&${THEME_PARAMS}&show_owner=true`
+            }
+          ];
+
+          async function fetchWithRetry(url, name, retries = 5) {
+            for (let i = 1; i <= retries; i++) {
+              try {
+                console.log(`[${name}] Attempt ${i}/${retries}: ${url}`);
+                const res = await fetch(url, {
+                  headers: {
+                    'User-Agent': 'Mozilla/5.0 (compatible; GitHub-Profile-Bot/1.0)',
+                    'Accept': 'image/svg+xml,*/*'
+                  },
+                  timeout: 30000
+                });
+                console.log(`[${name}] HTTP ${res.status}`);
+                const text = await res.text();
+                if (text.includes('<svg')) {
+                  console.log(`[${name}] ✅ Valid SVG received (${text.length} chars)`);
+                  return text;
+                } else {
+                  console.log(`[${name}] ❌ Not SVG, got: ${text.substring(0, 150)}`);
+                }
+              } catch (err) {
+                console.log(`[${name}] Error: ${err.message}`);
+              }
+              if (i < retries) {
+                const wait = i * 20000;
+                console.log(`[${name}] Waiting ${wait/1000}s before retry...`);
+                await new Promise(r => setTimeout(r, wait));
+              }
+            }
+            return null;
+          }
+
+          async function main() {
+            if (!fs.existsSync('generated')) fs.mkdirSync('generated');
+            let allOk = true;
+            for (const card of cards) {
+              const svg = await fetchWithRetry(card.url, card.name);
+              if (svg) {
+                fs.writeFileSync(`generated/${card.name}.svg`, svg);
+                console.log(`✅ Saved generated/${card.name}.svg`);
+              } else {
+                console.log(`❌ FAILED to get valid SVG for ${card.name}`);
+                allOk = false;
+              }
+            }
+            if (!allOk) {
+              console.log('⚠️  Some cards failed but continuing with whatever was saved.');
+            }
+            console.log('\n=== Final file listing ===');
+            fs.readdirSync('generated').forEach(f => {
+              const content = fs.readFileSync(`generated/${f}`, 'utf8');
+              console.log(`${content.includes('<svg') ? '✅' : '❌'} generated/${f} (${content.length} chars)`);
+            });
+          }
+
+          main().catch(console.error);
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add generated/
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update github stats cards [skip ci]"
+          git pull --rebase origin main
+          git push origin main
