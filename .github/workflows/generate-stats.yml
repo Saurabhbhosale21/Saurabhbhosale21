@@ -18,38 +18,69 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch GitHub Stats Card SVG
-        run: |
-          mkdir -p generated
-          curl -s "https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9" \
-            -o generated/stats.svg
-          echo "Stats card saved"
+      - name: Create generated folder
+        run: mkdir -p generated
 
-      - name: Fetch Top Languages Card SVG
+      - name: Fetch Stats Card
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9" \
-            -o generated/top-langs.svg
-          echo "Top langs card saved"
+          for i in 1 2 3; do
+            curl -sf "https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9" \
+              -o generated/stats.svg && \
+            grep -q '<svg' generated/stats.svg && echo "stats.svg OK" && break || \
+            echo "Attempt $i failed, retrying..." && sleep 10
+          done
 
-      - name: Fetch Streak Stats SVG
+      - name: Fetch Top Languages Card
         run: |
-          curl -s "https://github-readme-streak-stats.herokuapp.com?user=Saurabhbhosale21&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF" \
-            -o generated/streak.svg
-          echo "Streak card saved"
+          for i in 1 2 3; do
+            curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9" \
+              -o generated/top-langs.svg && \
+            grep -q '<svg' generated/top-langs.svg && echo "top-langs.svg OK" && break || \
+            echo "Attempt $i failed, retrying..." && sleep 10
+          done
 
-      - name: Fetch Trophy SVG
+      - name: Fetch Streak Card
         run: |
-          curl -s "https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN" \
-            -o generated/trophy.svg
-          echo "Trophy card saved"
+          for i in 1 2 3; do
+            curl -sf "https://github-readme-streak-stats.herokuapp.com?user=Saurabhbhosale21&theme=tokyonight&hide_border=true&background=0D1117&stroke=0078D4&ring=0078D4&fire=FF6B35&currStreakLabel=0078D4&sideLabels=7EB3FF&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF" \
+              -o generated/streak.svg && \
+            grep -q '<svg' generated/streak.svg && echo "streak.svg OK" && break || \
+            echo "Attempt $i failed, retrying..." && sleep 10
+          done
 
-      - name: Fetch Repo Pin SVG
+      - name: Fetch Trophy Card
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true" \
-            -o generated/repo-pin.svg
-          echo "Repo pin saved"
+          for i in 1 2 3; do
+            curl -sf "https://github-profile-trophy.vercel.app/?username=Saurabhbhosale21&theme=algolia&no-frame=false&no-bg=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,UNKNOWN" \
+              -o generated/trophy.svg && \
+            grep -q '<svg' generated/trophy.svg && echo "trophy.svg OK" && break || \
+            echo "Attempt $i failed, retrying..." && sleep 10
+          done
 
-      - name: Commit and push generated SVGs
+      - name: Fetch Repo Pin Card
+        run: |
+          for i in 1 2 3; do
+            curl -sf "https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true" \
+              -o generated/repo-pin.svg && \
+            grep -q '<svg' generated/repo-pin.svg && echo "repo-pin.svg OK" && break || \
+            echo "Attempt $i failed, retrying..." && sleep 10
+          done
+
+      - name: Verify all files
+        run: |
+          echo "=== File sizes ==="
+          ls -la generated/
+          echo "=== SVG check ==="
+          for f in generated/*.svg; do
+            if grep -q '<svg' "$f"; then
+              echo "✅ $f is valid SVG"
+            else
+              echo "❌ $f is INVALID - showing first line:"
+              head -1 "$f"
+            fi
+          done
+
+      - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
