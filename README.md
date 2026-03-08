@@ -13,32 +13,38 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" alt="Coding" width="340" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="55%" valign="top">
 
-```yaml
-╔══════════════════════════════════════╗
-  Name        : Saurabh Bhosale
-  Role        : .NET Backend Developer &
-                Web Development Lead
-  Experience  : 3+ Years
-  Location    : India 🇮🇳
-  Focus       : Backend · APIs · AI · Cloud
-╚══════════════════════════════════════╝
-```
+### 👋 &nbsp; Hey there! I'm **Saurabh Bhosale**
 
-🔧 Building **scalable backend systems** with **C#, ASP.NET Core** & **SQL Server**
+> *".NET Backend Developer by profession, problem-solver by passion."*
 
-🚀 Leading **web development initiatives** across my organization
+<br/>
 
-🤖 Leveraging **AI tools & prompt engineering** to maximize dev efficiency
+- 💼 &nbsp; **Role** &nbsp;→&nbsp; .NET Backend Developer & Web Dev Lead
+- ⏳ &nbsp; **Experience** &nbsp;→&nbsp; 3+ Years in Backend Engineering
+- 📍 &nbsp; **Location** &nbsp;→&nbsp; Navi Mumbai, India 🇮🇳
+- 🎯 &nbsp; **Current Focus** &nbsp;→&nbsp; Azure Cloud & AI Integration
+- 🌐 &nbsp; **Portfolio** &nbsp;→&nbsp; [saurabhbhosale.netlify.app](https://saurabhbhosale.netlify.app/)
+- 📫 &nbsp; **Contact** &nbsp;→&nbsp; Open to collabs & opportunities!
 
-☁️ Growing expertise in **Azure Cloud** architecture & services
+<br/>
 
-🐍 Writing automation scripts & tooling with **Python**
+🔧 Building **scalable REST APIs** with **C# & ASP.NET Core**
+🤖 Leveraging **AI tools** to 10x dev productivity
+☁️ Expanding into **Azure Cloud** architecture
+💡 Passionate about **clean code** & system design
 
-💡 Passionate about **clean code**, system design & developer productivity
+</td>
+<td width="45%" align="center" valign="top">
 
-<br clear="right"/>
+<img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="340" alt="Coding GIF"/>
+
+</td>
+</tr>
+</table>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -162,7 +168,14 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/trophy.svg" alt="GitHub Trophies"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/trophy.svg" width="100%" alt="GitHub Trophies"/>
+
+<br/><br/>
+
+![Commits](https://img.shields.io/badge/Total_Commits-116%2B-0078D4?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117)
+![Stars](https://img.shields.io/badge/Total_Stars-14-FFD700?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
+![Repos](https://img.shields.io/badge/Public_Repos-21-22c55e?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
+![Experience](https://img.shields.io/badge/Experience-3%2B_Years-FF6B35?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0D1117)
 
 </div>
 
@@ -200,9 +213,17 @@
 
 <div align="center">
 
-<a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
 <img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/repo-pin.svg" alt="Student Management API"/>
+
+<br/><br/>
+
+<a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
+<img src="https://img.shields.io/badge/🔗_Open_Repository-dotnet--student--management--api-0078D4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
 </a>
+&nbsp;
+<img src="https://img.shields.io/github/stars/Saurabhbhosale21/dotnet-student-management-api?style=for-the-badge&color=FFD700&logo=github&logoColor=white&labelColor=0D1117&label=⭐_Stars"/>
+&nbsp;
+<img src="https://img.shields.io/github/languages/top/Saurabhbhosale21/dotnet-student-management-api?style=for-the-badge&color=239120&logo=csharp&logoColor=white&labelColor=0D1117"/>
 
 </div>
 
