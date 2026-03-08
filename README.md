@@ -65,7 +65,7 @@
 <img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
 </td>
 <td align="center" width="130">
-<img src="https://img.shields.io/badge/Anthropic-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=FF6B35" height="70" alt="Claude"/>
+<img src="https://img.shields.io/badge/Anthropic-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white" height="70" alt="Claude"/>
 <br/><b>Claude AI</b><br/>
 <img src="https://img.shields.io/badge/Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white"/>
 </td>
@@ -160,9 +160,9 @@
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9&cache_seconds=86400" alt="GitHub Stats"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=Saurabhbhosale21&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0078D4&icon_color=0078D4&text_color=C9D1D9" alt="GitHub Stats"/>
 &nbsp;
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&cache_seconds=86400" alt="Top Languages"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabhbhosale21&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9" alt="Top Languages"/>
 
 </div>
 
@@ -187,7 +187,7 @@
 <div align="center">
 
 <a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true&cache_seconds=86400" alt="Student Management API"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Saurabhbhosale21&repo=dotnet-student-management-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0078D4&text_color=C9D1D9&icon_color=0078D4&show_owner=true" alt="Student Management API"/>
 </a>
 
 </div>
