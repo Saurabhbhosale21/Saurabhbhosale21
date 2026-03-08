@@ -162,7 +162,7 @@
 
 <div align="center">
 
-<img width="100%" src="./generated/trophy.svg" alt="GitHub Trophies"/>
+<img width="100%" src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/trophy.svg" alt="GitHub Trophies"/>
 
 </div>
 
@@ -174,9 +174,9 @@
 
 <div align="center">
 
-<img height="195" src="./generated/stats.svg" alt="GitHub Stats"/>
+<img height="195" src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/stats.svg" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img height="195" src="./generated/top-langs.svg" alt="Top Languages"/>
+<img height="195" src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/top-langs.svg" alt="Top Languages"/>
 
 </div>
 
@@ -188,7 +188,7 @@
 
 <div align="center">
 
-<img src="./generated/streak.svg" alt="GitHub Streak"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/streak.svg" alt="GitHub Streak"/>
 
 </div>
 
@@ -201,7 +201,7 @@
 <div align="center">
 
 <a href="https://github.com/Saurabhbhosale21/dotnet-student-management-api">
-<img src="./generated/repo-pin.svg" alt="Student Management API"/>
+<img src="https://raw.githubusercontent.com/Saurabhbhosale21/Saurabhbhosale21/main/generated/repo-pin.svg" alt="Student Management API"/>
 </a>
 
 </div>
